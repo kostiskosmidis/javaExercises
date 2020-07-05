@@ -4,8 +4,8 @@ public class  TwoNumbers{
    int secondArg = Integer.parseInt(args[1]);
    System.out.println("Numbers entered: " + firstArg + ", " +secondArg);
 
-   if(firstArg > secondArg){ System.out.println(firstArg + " is larger than " + secondArg);}
-   if(firstArg < secondArg){System.out.println(firstArg + " is smaller than " + secondArg);}
-   if(firstArg == secondArg){System.out.println(firstArg + " is equal to " + secondArg);}
-   if(firstArg != secondArg){System.out.println(firstArg + " is not equal to " + secondArg);}
+   {System.out.println("Is " + firstArg + " larger than " + secondArg + " ? "+ (firstArg>secondArg));}
+   {System.out.println("Is " + firstArg + " smaller than " + secondArg + " ? "+ (firstArg<secondArg));}
+   {System.out.println("Is " + firstArg + " equal to " + secondArg + " ? "+ (firstArg == secondArg));}
+   {System.out.println("Is " + firstArg + " different from " + secondArg + " ? "+ (firstArg!=secondArg));}
 }}

@@ -8,10 +8,6 @@ package project0;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- *
- * @author George.Pasparakis
- */
 public class Project0 {
 
     /**
